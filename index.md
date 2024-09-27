@@ -1,9 +1,3 @@
----
-title: Home
-layout: home
-nav_order: 1
----
-
 {: .note-title }
 > Test Version Notice
 >
