@@ -1,7 +1,6 @@
 ---
-title: 2. Data Sources
-nav_order: 3
-layout: default
+title: 4. Data Sources
+
 ---
 
 # Data Sources

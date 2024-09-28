@@ -1,0 +1,28 @@
+version: 1
+project:
+  title: Geothermal Exploration Playbook
+  github: https://chaolu-nbmg.github.io/Geothermal-Playbook-MyST/
+  license:
+    code: MIT
+    content: CC-BY-4.0
+
+  toc:
+    - file: index.md
+    - file: docs/1.introduction/introduction.md
+    - file: docs/2.assessment approaches/assessment_approaches.md
+      children:
+        - file: docs/2.assessment approaches/2.1 overview.md
+        - file: docs/2.assessment approaches/2.2 play_fairway_analysis.md
+        - file: docs/2.assessment approaches/2.3 conceptual_modeling.md
+        - file: docs/2.assessment approaches/2.4 machine_learning.md
+        - file: docs/2.assessment approaches/2.5 resource_estimation.md
+
+    - file: docs/3.workflow/workflow.md
+    - file: docs/4.geothermal data sources/data_sources.md
+
+site:
+  title: Geothermal Exploration Playbook
+  theme:
+    path: themes/book  # Path to your custom theme
+  domains:
+    - https://chaolu-nbmg.github.io/Geothermal-Playbook-MyST/
