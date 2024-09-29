@@ -16,13 +16,23 @@ project:
         - file: docs/2.assessment approaches/2.3 conceptual_modeling.md
         - file: docs/2.assessment approaches/2.4 machine_learning.md
         - file: docs/2.assessment approaches/2.5 resource_estimation.md
-
     - file: docs/3.workflow/workflow.md
+      children:
+          - file: docs/3.workflow/3.1 overview.md
+          - file: docs/3.workflow/3.2 choosing_assessment.md
+          - file: docs/3.workflow/3.3 identifying_assessment.md
+          - file: docs/3.workflow/3.4 design_workflow.md
+          - file: docs/3.workflow/3.5 modular_use.md
     - file: docs/4.geothermal data sources/data_sources.md
 
 site:
-  title: Geothermal Exploration Playbook
-  theme:
-    path: themes/book  # Path to your custom theme
-  domains:
-    - https://chaolu-nbmg.github.io/Geothermal-Playbook-MyST/
+  template: book-theme
+  nav:
+    - title: Nevada Bureau of Mines and Geology
+      url: https://nbmg.unr.edu/
+  options:
+    logo: assets/images/UNR_logo.svg
+    logo_text: University of Nevada, Reno
+
+    
+
