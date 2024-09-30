@@ -1,7 +1,5 @@
 ---
-title: 3. Geological Data
-nav_order: 4
-layout: default
+title: 6. Geological Data
+
 ---
 
-# Geological Data

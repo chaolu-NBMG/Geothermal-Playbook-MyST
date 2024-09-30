@@ -7,24 +7,63 @@ project:
     content: CC-BY-4.0
 
   toc:
+    # Home page
     - file: index.md
+    # Chapter 1 - Introduction
     - file: docs/1.introduction/introduction.md
-    - file: docs/2.assessment approaches/assessment_approaches.md
+    # Chapter 2
+    - title: 2. Assessment Approaches
       children:
         - file: docs/2.assessment approaches/2.1 overview.md
         - file: docs/2.assessment approaches/2.2 play_fairway_analysis.md
         - file: docs/2.assessment approaches/2.3 conceptual_modeling.md
         - file: docs/2.assessment approaches/2.4 machine_learning.md
         - file: docs/2.assessment approaches/2.5 resource_estimation.md
-    - file: docs/3.workflow/workflow.md
+    # Chapter 3    
+    - title: 3. Workflow Design
       children:
-          - file: docs/3.workflow/3.1 overview.md
-          - file: docs/3.workflow/3.2 choosing_assessment.md
-          - file: docs/3.workflow/3.3 identifying_assessment.md
-          - file: docs/3.workflow/3.4 design_workflow.md
-          - file: docs/3.workflow/3.5 modular_use.md
-    - file: docs/4.geothermal data sources/data_sources.md
-
+        - file: docs/3.workflow/3.1 overview.md
+        - file: docs/3.workflow/3.2 choosing_assessment.md
+        - file: docs/3.workflow/3.3 identifying_assessment.md
+        - file: docs/3.workflow/3.4 design_workflow.md
+        - file: docs/3.workflow/3.5 modular_use.md
+    # Chapter 4
+    - title: 4. Data Sources
+      children:
+        - file: docs/4.geothermal data sources/4.1 overview.md
+        - file: docs/4.geothermal data sources/4.2 GBCGE.md
+        - file: docs/4.geothermal data sources/4.3 GDR.md
+        - file: docs/4.geothermal data sources/4.4 NGDS.md
+        - file: docs/4.geothermal data sources/4.5 others.md
+    # Chapter 5
+    - title: 5. Value of Information (VOI)
+      children:
+        - file: docs/5.value of information/5.1 overview.md
+    # Chapter 6
+    - title: 6. Geological Data Collection and Applications
+      children:
+        - file: docs/6.geological data/6.1 overview.md
+    # Chapter 7
+    - title: 7. Geophysical Data Collection and Applications
+      children:
+        - file: docs/7.geophysical data/7.1 overview.md
+    # Chapter 8
+    - title: 8. Heat Data Collection and Applications
+      children:
+        - file: docs/8.heat data/8.1 overview.md
+    # Chapter 9
+    - title: 9. Feature Engineering
+      children:
+        - file: docs/9.feature engineering/9.1 overview.md
+    
+    
+    
+    # Chapter 12
+    - title: 12. Machine Learning
+      children:
+        - file: docs/12.machine learning/12.1 overview.md
+        - file: docs/12.machine learning/12.2 Data_Preprocessing.ipynb
+        - file: docs/12.machine learning/12.3 PFA_ANN_sklearn.ipynb
 site:
   template: book-theme
   nav:
