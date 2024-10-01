@@ -55,15 +55,33 @@ project:
     - title: 9. Feature Engineering
       children:
         - file: docs/9.feature engineering/9.1 overview.md
-    
-    
-    
+    # Chapter 10
+    - title: 10. Play Fairway Analysis
+      children:
+        - file: docs/10.PFA/10.1 overview.md
+    # Chapter 11
+    - title: 11. Conceptual Model and Resource Assessment
+      children:
+        - file: docs/11.conceptual model/11.1 overview.md
     # Chapter 12
     - title: 12. Machine Learning
       children:
         - file: docs/12.machine learning/12.1 overview.md
         - file: docs/12.machine learning/12.2 Data_Preprocessing.ipynb
         - file: docs/12.machine learning/12.3 PFA_ANN_sklearn.ipynb
+    # Chapter 13
+    - title: 13. Case Studies
+      children:
+        - file: docs/13.case studies/13.1 overview.md
+    # Chapter 14
+    - file: docs/14.barriers/barriers.md
+    # Chapter 15
+    - file: docs/15.permit/permitting.md
+    # Chapter 16
+    - file: docs/16.outreach/outreach.md
+    # Chapter 17
+    - file: docs/17.toolbox/toolbox.md
+
 site:
   template: book-theme
   nav:
