@@ -1,6 +1,6 @@
-# Geothermal Exploration Playbook
+# Geothermal Exploration Playbook for Conventional Hydrothermal Systems in the Great Basin Region, Western USA
 
-![Geothermal Power Plants in Nevada, 2023](assets/images/Figure1_Cover.png)
+![Geothermal Playbook Cover, 2025](assets/images/Figure1_Cover.png)
 
 # Introduction
 The "Geothermal Developers' Playbook" is a comprehensive guide for the exploration and assessment of conventional hydrothermal systems (hidden and non-hidden) in the Great Basin Region (GBR). The playbook covers everything from data acquisition to advanced assessment and permitting processes, integrating tools such as play fairway analysis, 3D modeling, machine learning, value-of-information analysis, and conceptual models along with practical case studies.
