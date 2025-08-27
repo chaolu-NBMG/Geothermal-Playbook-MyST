@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: Geothermal Exploration Playbook
+  title: Geothermal Exploration Playbook for Conventional Hydrothermal Systems in the Great Basin Region, Western USA
   github: https://chaolu-nbmg.github.io/Geothermal-Playbook-MyST/
   license:
     code: MIT
