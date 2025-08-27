@@ -1,5 +1,5 @@
 ---
-title: 9. Case Studies
+title: 14. Case Studies
 nav_order: 10
 layout: default
 ---

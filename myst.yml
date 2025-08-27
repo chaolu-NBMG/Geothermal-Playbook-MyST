@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: Geothermal Exploration Playbook for Conventional Hydrothermal Systems in the Great Basin Region, Western USA
+  title: Geothermal Exploration Playbook
   github: https://chaolu-nbmg.github.io/Geothermal-Playbook-MyST/
   license:
     code: MIT
@@ -52,35 +52,39 @@ project:
       children:
         - file: docs/8.heat data/8.1 overview.md
     # Chapter 9
-    - title: 9. Feature Engineering
+    - title: 9. Drilling
       children:
-        - file: docs/9.feature engineering/9.1 overview.md
+        - file: docs/9.drilling/9.1 overview.md
     # Chapter 10
-    - title: 10. Play Fairway Analysis
+    - title: 10. Feature Engineering
       children:
-        - file: docs/10.PFA/10.1 overview.md
+        - file: docs/10.feature engineering/10.1 overview.md
     # Chapter 11
-    - title: 11. Conceptual Model and Resource Assessment
+    - title: 11. Play Fairway Analysis
       children:
-        - file: docs/11.conceptual model/11.1 overview.md
+        - file: docs/11.PFA/11.1 overview.md
     # Chapter 12
-    - title: 12. Machine Learning
+    - title: 12. Conceptual Model and Resource Assessment
       children:
-        - file: docs/12.machine learning/12.1 overview.md
-        - file: docs/12.machine learning/12.2 Data_Preprocessing.ipynb
-        - file: docs/12.machine learning/12.3 PFA_ANN_sklearn.ipynb
+        - file: docs/12.conceptual model/12.1 overview.md
     # Chapter 13
-    - title: 13. Case Studies
+    - title: 13. Machine Learning
       children:
-        - file: docs/13.case studies/13.1 overview.md
+        - file: docs/13.machine learning/13.1 overview.md
+        - file: docs/13.machine learning/13.2 Data_Preprocessing.ipynb
+        - file: docs/13.machine learning/13.3 PFA_ANN_sklearn.ipynb
     # Chapter 14
-    - file: docs/14.barriers/barriers.md
+    - title: 14. Case Studies
+      children:
+        - file: docs/14.case studies/14.1 overview.md
     # Chapter 15
-    - file: docs/15.permit/permitting.md
+    - file: docs/15.barriers/barriers.md
     # Chapter 16
-    - file: docs/16.outreach/outreach.md
+    - file: docs/16.permit/permitting.md
     # Chapter 17
-    - file: docs/17.toolbox/toolbox.md
+    - file: docs/17.outreach/outreach.md
+    # Chapter 18
+    - file: docs/18.toolbox/toolbox.md
 
 site:
   template: book-theme
